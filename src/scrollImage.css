@@ -1,0 +1,16 @@
+.product-image-container{
+    display:inline-block;
+    overflow: hidden;
+    position: relative;
+    padding: 10px;
+    border-radius: 10px;
+}
+.floating-image{
+    width: 100%;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    box-shadow: 0px 5px 15px rgba(5, 4, 4, 0.2)
+}
+.floating-image:hover{
+    transform: translateY(-10px);
+    box-shadow:0px 10px 30px rgba(0,0,0,0.3)
+}
